@@ -72,12 +72,12 @@
 						<div class="column is-6">
 							<a href="services-single.html" class="home-services-item mtop-70" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s" data-scroll-reveal-id="1" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-browser"></i>
-								<h5 class="services-title">Développement web</h5>
+								<h5 class="services-title">Développement des Sites Web</h5>
 								<p>Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.</p>
 							</a>
 							<a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-connectdevelop"></i>
-								<h5 class="services-title">Développement d'applications natives</h5>
+								<h5 class="services-title">Développement d'applications Mobile</h5>
 								<p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
 							</a>
 						</div>

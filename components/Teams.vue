@@ -21,8 +21,7 @@
 							<div class="info">
 								<strong>Olivier ESUKA</strong>
 								<span>CEO</span>
-								<span>Ingénieur informaticien</span>
-								<span>Développeur Fullstack</span>
+								<span>Développeur Fullstack et Mobile</span>
 							</div>
 						</div>
 						<div class="body">
@@ -43,8 +42,8 @@
 								<img src="~/assets/images/teams/polymak.jpg" alt="">
 							</div>
 							<div class="info">
-								<strong>Poly</strong>
-								<span>Ingénieur informaticien</span>
+								<strong>Polycarpe MAKOMBO</strong>
+								<strong>Fondateur</strong>
 								<span>Développeur Backend</span>
 							</div>
 						</div>
@@ -67,7 +66,7 @@
 							</div>
 							<div class="info">
 								<strong>Kers</strong>
-								<span>Ingénieur informaticien</span>
+								<span>Fondateur</span>
 								<span>Designer</span>
 							</div>
 						</div>

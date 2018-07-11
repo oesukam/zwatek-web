@@ -71,20 +71,20 @@
 					<div class="columns">
 						<div class="column is-6">
 							<a href="services-single.html" class="home-services-item mtop-70" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s" data-scroll-reveal-id="1" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
-								<i class="fa fa-clone"></i>
-								<h5 class="services-title">Mobility Services Strategy</h5>
+								<i class="fa fa-browser"></i>
+								<h5 class="services-title">Développement web</h5>
 								<p>Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.</p>
 							</a>
 							<a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-connectdevelop"></i>
-								<h5 class="services-title">Native App Development</h5>
+								<h5 class="services-title">Développement d'applications natives</h5>
 								<p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
 							</a>
 						</div>
 						<div class="column is-6">
 							<a href="services-single.html" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s" data-scroll-reveal-id="3" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-object-ungroup"></i>
-								<h5 class="services-title">Design &amp; User Experience</h5>
+								<h5 class="services-title">Design &amp; Expérience utilisateur</h5>
 								<p>Donec pellentesque turpis utium lorem imperdiet semper viverra.</p>
 							</a>
 							<a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s" data-scroll-reveal-id="4" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">

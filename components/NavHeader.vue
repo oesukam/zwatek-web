@@ -16,7 +16,7 @@
             <div class="tabs is-right">
               <ul>
                 <li><router-link to="/">Accueil</router-link></li>
-                <li><router-link to="/nos_produits">Projets</router-link></li>
+                <li><router-link to="/nos_produits">Nos Produits</router-link></li>
                 <li><router-link to="/a_propos">A Propos</router-link></li>
                 <li><router-link to="/services">Services</router-link></li>
                 <li><router-link to="/contact" class="contact">Contact</router-link></li>

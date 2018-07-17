@@ -16,11 +16,11 @@
 					<div class="team-item">
 						<div class="header">
 							<div class="img">
-								<img src="~/assets/images/teams/olivier.png" alt="">
+								<img class="team-imoji" src="~/assets/images/teams/olivier.png" alt="">
 							</div>
 							<div class="info">
 								<strong>Olivier ESUKA</strong>
-								<span>CEO</span>
+								<strong>CEO</strong>
 								<span>Développeur Fullstack et Mobile</span>
 							</div>
 						</div>
@@ -39,7 +39,7 @@
 					<div class="team-item">
 						<div class="header">
 							<div class="img">
-								<img src="~/assets/images/teams/polymak.jpg" alt="">
+								<img class="team-imoji" src="~/assets/images/teams/poly.png" alt="">
 							</div>
 							<div class="info">
 								<strong>Polycarpe MAKOMBO</strong>
@@ -62,11 +62,11 @@
 					<div class="team-item">
 						<div class="header">
 							<div class="img">
-								<img src="~/assets/images/teams/kers.png" alt="">
+								<img class="team-imoji" src="~/assets/images/teams/kers.png" alt="">
 							</div>
 							<div class="info">
-								<strong>Kers</strong>
-								<span>Fondateur</span>
+								<strong>Blaise</strong>
+								<strong>Fondateur</strong>
 								<span>Designer</span>
 							</div>
 						</div>
@@ -100,5 +100,8 @@
     letter-spacing: 1.30px;
     line-height: 40px;
     margin-bottom: 20px !important;
+  }
+  .team-imoji {
+    background-color: #24CDFF;
   }
 </style>

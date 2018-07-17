@@ -9,7 +9,7 @@
 		</div>
 		<div class="welcome-content">
 			<div class="container">
-				<div class="columns">
+				<div class="columns sm:mx-0 sm:p-8">
 					<div class="column align-self-center">
 						<h1>Découvrez nos applications mobiles sur lesquelles nous travaillons.</h1>
 						<p>Nous concevons et développons des applications mobiles qui ravissent
@@ -122,14 +122,6 @@ export default {
 </script>
 
 <style>
-.container
-{
-  /* min-height: 100vh; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .title
 {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
@@ -793,5 +785,9 @@ home
 .btn-primary-line:hover {
   background: #4886FF;
   color: #fff;
+}
+.bg-white {
+  background-color: #fff !important;
+  color: rgba(0,0,0,0.5) !important;
 }
 </style>

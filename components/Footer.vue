@@ -27,7 +27,7 @@
       <div class="column is-4">
         <h3>Contactez Nous</h3>
         <div class="address">
-          <p>Tel: (272) 211-7370</p>
+          <p>Tel: +(243) 82-201-2578</p>
           <p><span>E-Mail: </span><a href="#">support@zwatek.com</a></p>
           <ul class="social">
             <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>

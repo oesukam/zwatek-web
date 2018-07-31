@@ -14,7 +14,7 @@
 						<p>Nous concevons et développons des applications mobiles qui ravissent
               vos utilisateurs et développent votre activité.
               Développement de qualité professionnelle combiné à un design exceptionnel.</p>
-						<router-link to="produits" class="btn-white-line" href="#">PRODUITS</router-link>
+						<router-link to="/produits" class="btn-white-line" href="#">PRODUITS</router-link>
 					</div>
 					<div class="column">
 						<div class="apps">
@@ -68,7 +68,7 @@
 						<p class="dark">Pellentesque posuere vestibulum lorem, ut efficitur erat tristique sed. Ut vitae tincidunt ante. </p>
 						<p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat. Praesent tortor nulla, ullamcorper.</p>
 					</div>
-					<a href="#" class="btn-primary-line">SERVICES</a>
+					<router-link to="/services" class="btn-primary-line">SERVICES</router-link>
 				</div>
 				<!-- ***** Home About End ***** -->
 

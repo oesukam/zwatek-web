@@ -62,6 +62,7 @@
     width: 100%;
     bottom: 50px;
     z-index: 3;
+    padding: 15px;
   }
   .cover .page-top h1 {
     font-weight: 400;

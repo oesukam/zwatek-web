@@ -5,8 +5,8 @@
         <h3>Liens utiles</h3>
         <ul class="footer-nav">
           <li><router-link to="/produits"><i class="fa fa-angle-right"></i><span>Produits</span></router-link></li>
-          <li><router-link to="/a_propos"><i class="fa fa-angle-right"></i><span>A Propos</span></router-link></li>
           <li><router-link to="/services"><i class="fa fa-angle-right"></i><span>Services</span></router-link></li>
+          <li><router-link to="/a_propos"><i class="fa fa-angle-right"></i><span>A Propos</span></router-link></li>
           <li><router-link to="/contact"><i class="fa fa-angle-right"></i><span>Contact</span></router-link></li>
         </ul>
       </div>
@@ -115,5 +115,11 @@
     float: left;
     font-size: 16px;
     margin-right: 10px;
+  }
+  .column {
+    text-align: center;
+  }
+  .footer-nav {
+    display: inline-block;
   }
 </style>

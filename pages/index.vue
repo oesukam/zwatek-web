@@ -1,6 +1,5 @@
 <template>
   <section class="welcome-area">
-
     <!-- ***** Wellcome Area Content Start ***** -->
 		<div class="welcome-area">
       <!-- ***** Wellcome Area Background Start ***** -->
@@ -15,30 +14,37 @@
 						<p>Nous concevons et développons des applications mobiles qui ravissent
               vos utilisateurs et développent votre activité.
               Développement de qualité professionnelle combiné à un design exceptionnel.</p>
-						<a class="btn-white-line" href="#">NOS PRODUITS</a>
+						<router-link to="produits" class="btn-white-line" href="#">PRODUITS</router-link>
 					</div>
 					<div class="column">
 						<div class="apps">
 							<div class="container-fluid">
 								<div class="columns is-multiline">
 									<div class="column is-3">
-										<a href="app-single.html" class="app-item">
+										<a href="https://wikilangue.org" target="_blank" class="app-item">
 											<div class="welcome-icon">
 												<img src="~/assets/images/apps-logo/wikilangue.png" class="img-fluid" alt="">
 											</div>
 										</a>
 									</div>
 									<div class="column is-3">
-										<a href="app-single.html" class="app-item">
+										<a href="https://play.google.com/store/apps/details?id=com.oesukam.preexetat&hl=en" target="_blank" class="app-item">
 											<div class="welcome-icon">
 												<img src="~/assets/images/apps-logo/pre-exetat.png" class="img-fluid" alt="">
 											</div>
 										</a>
 									</div>
 									<div class="column is-3">
-										<a href="app-single.html" class="app-item">
+										<a href="https://play.google.com/store/apps/details?id=com.infodteam.lingalaphrasebook" target="_blank" class="app-item">
 											<div class="welcome-icon">
 												<img src="~/assets/images/apps-logo/learn-lingala.png" class="img-fluid" alt="">
+											</div>
+										</a>
+									</div>
+                  <div class="column is-3">
+										<a href="https://rfmtv.net" target="_blank" class="app-item">
+											<div class="welcome-icon">
+												<img src="~/assets/images/apps-logo/rfmtv.png" class="img-fluid" alt="">
 											</div>
 										</a>
 									</div>
@@ -73,19 +79,16 @@
 							<a href="services-single.html" class="home-services-item mtop-70" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s" data-scroll-reveal-id="1" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-browser"></i>
 								<h5 class="services-title">Développement des Sites Web</h5>
-								<p>Morbi pharetra sapien ut mattis viverra. Curabitur sit amet mattis.</p>
 							</a>
 							<a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.2s" data-scroll-reveal-id="2" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-connectdevelop"></i>
-								<h5 class="services-title">Développement d'applications Mobile</h5>
-								<p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+								<h5 class="services-title">Développement d'applications Mobile: Android et IOs</h5>
 							</a>
 						</div>
 						<div class="column is-6">
 							<a href="services-single.html" class="home-services-item active" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s" data-scroll-reveal-id="3" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-object-ungroup"></i>
 								<h5 class="services-title">Design &amp; Expérience utilisateur</h5>
-								<p>Donec pellentesque turpis utium lorem imperdiet semper viverra.</p>
 							</a>
 							<a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s" data-scroll-reveal-id="4" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-line-chart"></i>
@@ -434,235 +437,8 @@ home
   line-height: 28px;
 }
 
-.team-item {
-  background-image: linear-gradient(127deg, #fff 0%, #fff 91%);
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
-  padding: 20px;
-  border-radius: 40px;
-  border-bottom-right-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
 
-.team-item:before {
-  content: '';
-  border-radius: 40px;
-  border-bottom-right-radius: 4px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: red;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-  background-image: linear-gradient(127deg, #384DFF 0%, #24CDFF 91%);
-  opacity: 0;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
 
-.team-item:hover:before {
-  opacity: 1;
-}
-
-.team-item:hover .header .info strong {
-  color: #fff;
-}
-
-.team-item:hover .header .info span {
-  color: #F7F8FF;
-}
-
-.team-item:hover .body {
-  color: #F7F8FF;
-}
-
-.team-item:hover .social {
-  right: 0px;
-}
-
-.team-item .header {
-  overflow: hidden;
-  margin-bottom: 20px;
-  position: relative;
-  z-index: 2;
-}
-
-.team-item .header .img {
-  float: left;
-  width: 76px;
-  margin-right: 10px;
-  overflow: hidden;
-  border-radius: 2px;
-  border-top-left-radius: 40px;
-}
-
-.team-item .header .info strong {
-  display: block;
-  font-weight: 400;
-  font-size: 14px;
-  color: #3B566E;
-  letter-spacing: 0.6px;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.team-item .header .info span {
-  display: block;
-  font-weight: 400;
-  font-size: 12px;
-  color: #6F8BA4;
-  letter-spacing: 0.52px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.team-item .body {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
-  color: #6F8BA4;
-  letter-spacing: 0.6px;
-  position: relative;
-  z-index: 2;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.team-item .social {
-  position: absolute;
-  right: -150px;
-  top: 77px;
-  overflow: hidden;
-  width: 150px;
-  height: 28px;
-  background: #fff;
-  text-align: center;
-  border-radius: 3px 0px 0px 3px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  z-index: 2;
-}
-
-.team-item .social li {
-  display: inline-block;
-  height: 28px;
-  line-height: 28px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.parallax {
-  min-height: 280px;
-  position: relative;
-}
-
-.parallax:before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: .78;
-  background-image: linear-gradient(127deg, #384DFF 0%, #24CDFF 91%);
-  z-index: 2;
-}
-
-.parallax .parallax-content {
-  position: relative;
-  z-index: 3;
-}
-
-.parallax .parallax-content .count-item {
-  height: 280px;
-  position: relative;
-  overflow: hidden;
-}
-
-.parallax .parallax-content .count-item:hover strong {
-  margin-top: 60px;
-}
-
-.parallax .parallax-content .count-item:before {
-  content: '';
-  position: absolute;
-  width: 1px;
-  height: 40px;
-  background: #fff;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-  top: 0px;
-}
-
-.parallax .parallax-content .count-item:after {
-  content: '';
-  position: absolute;
-  width: 1px;
-  height: 40px;
-  background: #fff;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-  bottom: 0px;
-}
-
-.parallax .parallax-content .count-item strong {
-  display: block;
-  text-align: center;
-  font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 1.72px;
-  margin-bottom: 10px;
-  color: #fff;
-  margin-top: 70px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.parallax .parallax-content .count-item span {
-  display: block;
-  text-align: center;
-  color: #fff;
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0.86px;
-}
-
-.parallax .parallax-content .info {
-  text-align: center;
-  font-weight: 400;
-  font-size: 22px;
-  color: #fff;
-}
-
-.parallax .parallax-content .info p {
-  letter-spacing: 1px;
-  margin-top: 80px;
-  margin-bottom: 60px;
-}
-
-.parallax .parallax-content .info p span {
-  text-decoration: underline;
-}
-
-.parallax .parallax-content .info .btn-white-line {
-  margin: auto;
-}
 
 @media (max-width: 991px) {
   .home-services-item.mtop-70 {
@@ -670,30 +446,6 @@ home
   }
   .services-section {
     margin-top: 0px !important;
-  }
-  .team-item {
-    cursor: pointer;
-  }
-  .parallax .parallax-content .count-item {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .parallax .parallax-content .count-item:hover strong {
-    margin-top: 0px;
-  }
-  .parallax .parallax-content .count-item:before {
-    display: none;
-  }
-  .parallax .parallax-content .count-item:after {
-    width: 40px;
-    height: 1px;
-  }
-  .parallax .parallax-content .count-item strong {
-    margin-top: 0px;
-  }
-  .parallax .parallax-content .info .btn-white-line {
-    margin-bottom: 80px;
   }
 }
 .left-heading .section-title {

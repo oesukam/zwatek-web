@@ -1,16 +1,10 @@
 <template>
   <footer class="footer">
     <div class="columns">
-      <div class="column is-12">
-        <img src="~/assets/images/logo-blue.png" class="footer-logo" alt="">
-        <div class="text">Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</div>
-      </div>
-    </div>
-    <div class="columns">
       <div class="column is-4">
         <h3>Liens utiles</h3>
         <ul class="footer-nav">
-          <li><router-link to="/nos_produits"><i class="fa fa-angle-right"></i><span>Nos Produits</span></router-link></li>
+          <li><router-link to="/produits"><i class="fa fa-angle-right"></i><span>Produits</span></router-link></li>
           <li><router-link to="/a_propos"><i class="fa fa-angle-right"></i><span>A Propos</span></router-link></li>
           <li><router-link to="/services"><i class="fa fa-angle-right"></i><span>Services</span></router-link></li>
           <li><router-link to="/contact"><i class="fa fa-angle-right"></i><span>Contact</span></router-link></li>
@@ -19,9 +13,10 @@
       <div class="column is-4">
         <h3>Nouveaux Produits</h3>
         <ul class="footer-nav">
-          <li><a href="#"><i class="fa fa-angle-right"></i><span>Wikilangue</span></a></li>
-          <li><a href="#"><i class="fa fa-angle-right"></i><span>Pre-Exetat</span></a></li>
-          <li><a href="#"><i class="fa fa-angle-right"></i><span>Apprendre | Leanr Lingala</span></a></li>
+          <li><a href="https://www.rfmtv.net" target="_blank"><i class="fa fa-angle-right"></i><span>RFM TV</span></a></li>
+          <li><a href="https://www.wikilangue.org" target="_blank"><i class="fa fa-angle-right"></i><span>Wikilangue</span></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i><span>Pré-Exétat</span></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i><span>Apprendre | Learn Lingala</span></a></li>
         </ul>
       </div>
       <div class="column is-4">
@@ -54,7 +49,7 @@
 
 <style scoped>
   .footer {
-    padding: 0px 3rem;
+    padding: 3rem 3rem 0px 3rem !important;
     background: #F4F8FB;
   }
   .footer-logo {

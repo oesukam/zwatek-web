@@ -65,8 +65,8 @@
 						<h2 class="section-title">Agence de développement d'applications de la conception au déploiement</h2>
 					</div>
 					<div class="left-text">
-						<p class="dark">Pellentesque posuere vestibulum lorem, ut efficitur erat tristique sed. Ut vitae tincidunt ante. </p>
-						<p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat. Praesent tortor nulla, ullamcorper.</p>
+						<!-- <p class="dark">Pellentesque posuere vestibulum lorem, ut efficitur erat tristique sed. Ut vitae tincidunt ante. </p>
+						<p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat. Praesent tortor nulla, ullamcorper.</p> -->
 					</div>
 					<router-link to="/services" class="btn-primary-line">SERVICES</router-link>
 				</div>
@@ -93,7 +93,6 @@
 							<a href="services-single.html" class="home-services-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.3s" data-scroll-reveal-id="4" data-scroll-reveal-initialized="true" data-scroll-reveal-complete="true">
 								<i class="fa fa-line-chart"></i>
 								<h5 class="services-title">Maintenance &amp; Monitoring</h5>
-								<p>Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
 							</a>
 						</div>
 					</div>

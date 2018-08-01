@@ -13,8 +13,8 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="info">
-                <p>We design and develop <span>mobile apps</span> that delight your users and grow your business.</p>
-                <a class="btn-white-line" href="#">Contact Us</a>
+                <p>Nous concevons et développons des applications <span>Web</span>, <span>Mobile</span> et systemes de controle qui raviront vos utilisateurs et développeront votre activité.</p>
+                <router-link  to="/contact" class="btn-white-line">Contactez Nous</router-link>
               </div>
             </div>
           </div>

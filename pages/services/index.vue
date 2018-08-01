@@ -13,7 +13,7 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="info">
-                <p>Nous concevons et développons des applications <span>Web</span>, <span>Mobile</span> et systemes de controle qui raviront vos utilisateurs et développeront votre activité.</p>
+                <p>Nous concevons et développons des applications <span>Web</span>, <span>Mobile</span> et systemes de controle qui raviront vos utilisateurs et amelioront vos activités.</p>
                 <router-link  to="/contact" class="btn-white-line">Contactez Nous</router-link>
               </div>
             </div>

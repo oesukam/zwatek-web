@@ -21,6 +21,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
     "@nuxtjs/bulma": "^1.0.3",
+    "@nuxtjs/google-gtag": "^1.0.3",
     "express": "^4.15.3",
     "nuxt": "^1.0.0"
   },

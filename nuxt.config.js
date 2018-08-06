@@ -44,7 +44,8 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+    '@nuxtjs/google-gtag'
   ],
   /*
   ** Axios module configuration
@@ -53,6 +54,20 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
+  'google-gtag':{
+    id: 'UA-123359823-1', // required
+    config:{
+      // this are the config options for `gtag
+      // check out official docs: https://developers.google.com/analytics/devguides/collection/gtagjs/
+      anonymize_ip: true, // anonymize IP
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      linker:{
+        // domains:['domain.com','domain.org']
+      }
+    },
+    debug: true, // enable to track in dev mode
+    disableAutoPageTrack: false // disable if you don't want to track each page route with router.afterEach(...)
+  },
   /*
   ** Build configuration
   */

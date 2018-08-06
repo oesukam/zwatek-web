@@ -93,6 +93,10 @@
   dependencies:
     bulma "^0.7.1"
 
+"@nuxtjs/google-gtag@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-gtag/-/google-gtag-1.0.3.tgz#d524ab52d6c0eb3855bfc315eb5f7844e1efa8a2"
+
 "@nuxtjs/proxy@^1.2.4":
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@nuxtjs/proxy/-/proxy-1.2.4.tgz#41aafac58854f14e28aed17238936bb6404e6071"

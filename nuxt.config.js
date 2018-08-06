@@ -62,7 +62,7 @@ module.exports = {
       anonymize_ip: true, // anonymize IP
       send_page_view: false, // might be necessary to avoid duplicated page track on page reload
       linker:{
-        // domains:['domain.com','domain.org']
+        domains:['zwatek.com']
       }
     },
     debug: true, // enable to track in dev mode

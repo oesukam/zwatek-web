@@ -16,7 +16,7 @@
           <div class="navbar-end">
             <nuxt-link class="navbar-item" to="/">Accueil</nuxt-link>
             <nuxt-link class="navbar-item" to="/produits">Produits</nuxt-link>
-            <nuxt-link class="navbar-item" to="/a_propos">A Propos</nuxt-link>
+            <nuxt-link class="navbar-item" to="/propos">A Propos</nuxt-link>
             <nuxt-link  class="navbar-item" to="/services">Services</nuxt-link>
             <nuxt-link to="/contact" class="navbar-item contact">Contact</nuxt-link>
           </div>

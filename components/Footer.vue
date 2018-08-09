@@ -6,7 +6,7 @@
         <ul class="footer-nav">
           <li><nuxt-link to="/produits"><i class="fa fa-angle-right"></i><span>Produits</span></nuxt-link></li>
           <li><nuxt-link to="/services"><i class="fa fa-angle-right"></i><span>Services</span></nuxt-link></li>
-          <li><nuxt-link to="/a_propos"><i class="fa fa-angle-right"></i><span>A Propos</span></nuxt-link></li>
+          <li><nuxt-link to="/propos"><i class="fa fa-angle-right"></i><span>A Propos</span></nuxt-link></li>
           <li><nuxt-link to="/contact"><i class="fa fa-angle-right"></i><span>Contact</span></nuxt-link></li>
         </ul>
       </div>

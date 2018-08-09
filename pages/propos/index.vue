@@ -4,7 +4,7 @@
       <h1 slot="title" >A Propos</h1>
       <ul slot="breadcrumb">
         <li><nuxt-link to="/">Accueil</nuxt-link></li>
-        <li class="is-active"><nuxt-link to="/a_propos" aria-current="page">A Propos</nuxt-link></li>
+        <li class="is-active"><nuxt-link to="/propos" aria-current="page">A Propos</nuxt-link></li>
       </ul>
     </Cover>
     <div class="container">

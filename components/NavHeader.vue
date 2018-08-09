@@ -14,11 +14,11 @@
         </div>
         <div id="navbarMenu" :class="['navbar-menu', {'is-active': menu }]">
           <div class="navbar-end">
-            <router-link class="navbar-item" to="/">Accueil</router-link>
-            <router-link class="navbar-item" to="/produits">Produits</router-link>
-            <router-link class="navbar-item" to="/a_propos">A Propos</router-link>
-            <router-link  class="navbar-item" to="/services">Services</router-link>
-            <router-link to="/contact" class="navbar-item contact">Contact</router-link>
+            <nuxt-link class="navbar-item" to="/">Accueil</nuxt-link>
+            <nuxt-link class="navbar-item" to="/produits">Produits</nuxt-link>
+            <nuxt-link class="navbar-item" to="/a_propos">A Propos</nuxt-link>
+            <nuxt-link  class="navbar-item" to="/services">Services</nuxt-link>
+            <nuxt-link to="/contact" class="navbar-item contact">Contact</nuxt-link>
           </div>
         </div>
     </div>

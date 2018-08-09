@@ -4,10 +4,10 @@
       <div class="column is-4">
         <h3>Liens utiles</h3>
         <ul class="footer-nav">
-          <li><router-link to="/produits"><i class="fa fa-angle-right"></i><span>Produits</span></router-link></li>
-          <li><router-link to="/services"><i class="fa fa-angle-right"></i><span>Services</span></router-link></li>
-          <li><router-link to="/a_propos"><i class="fa fa-angle-right"></i><span>A Propos</span></router-link></li>
-          <li><router-link to="/contact"><i class="fa fa-angle-right"></i><span>Contact</span></router-link></li>
+          <li><nuxt-link to="/produits"><i class="fa fa-angle-right"></i><span>Produits</span></nuxt-link></li>
+          <li><nuxt-link to="/services"><i class="fa fa-angle-right"></i><span>Services</span></nuxt-link></li>
+          <li><nuxt-link to="/a_propos"><i class="fa fa-angle-right"></i><span>A Propos</span></nuxt-link></li>
+          <li><nuxt-link to="/contact"><i class="fa fa-angle-right"></i><span>Contact</span></nuxt-link></li>
         </ul>
       </div>
       <div class="column is-4">

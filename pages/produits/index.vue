@@ -3,8 +3,8 @@
     <Cover>
       <h1 slot="title" >Produits</h1>
       <ul slot="breadcrumb">
-        <li><router-link to="/">Accueil</router-link></li>
-        <li class="is-active"><router-link to="/produits" aria-current="page">Produits</router-link></li>
+        <li><nuxt-link to="/">Accueil</nuxt-link></li>
+        <li class="is-active"><nuxt-link to="/produits" aria-current="page">Produits</nuxt-link></li>
       </ul>
     </Cover>
     <div class="container">

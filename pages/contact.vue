@@ -3,8 +3,8 @@
     <Cover>
       <h1 slot="title" >Contact</h1>
       <ul slot="breadcrumb">
-        <li><router-link to="/">Accueil</router-link></li>
-        <li class="is-active"><router-link to="/contact" aria-current="page">Contact</router-link></li>
+        <li><nuxt-link to="/">Accueil</nuxt-link></li>
+        <li class="is-active"><nuxt-link to="/contact" aria-current="page">Contact</nuxt-link></li>
       </ul>
     </Cover>
     <div class="map-wrapper">

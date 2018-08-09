@@ -3,8 +3,8 @@
     <Cover>
       <h1 slot="title" >Services</h1>
       <ul slot="breadcrumb">
-        <li><router-link to="/">Accueil</router-link></li>
-        <li class="is-active"><router-link to="/services" aria-current="page">Services</router-link></li>
+        <li><nuxt-link to="/">Accueil</nuxt-link></li>
+        <li class="is-active"><nuxt-link to="/services" aria-current="page">Services</nuxt-link></li>
       </ul>
     </Cover>
     <section class="parallax">
@@ -14,7 +14,7 @@
             <div class="col-lg-12">
               <div class="info">
                 <p>Nous concevons et développons des applications <span>Web</span>, <span>Mobile</span> et systemes de controle qui raviront vos utilisateurs et amelioront vos activités.</p>
-                <router-link  to="/contact" class="btn-white-line">Contactez Nous</router-link>
+                <nuxt-link  to="/contact" class="btn-white-line">Contactez Nous</nuxt-link>
               </div>
             </div>
           </div>
